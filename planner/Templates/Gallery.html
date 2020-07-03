@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+
+
+<div class="row" id="gallery">
+<div class="col-md-12">
+<h1><b> Gallery</h1>
+</div>
+</div>
+<div class="row padding30">
+ {% for pic in object_list %}
+<div class="col-md-4">
+<div class="col-md-12 gallerypics">
+<img src="/media/{{ pic.photo }}" height="250" width="100%">
+</div>
+</div>
+{% endfor %}
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+
+
+<div class="row" id="vdetail">
+<div class="col-md-12">
+<h1><b>{{ vendorcat.title }}</b></h1>
+</div>
+</div>
+
+
+<div class="row padding30">
+{% for vendors in vendordetail %}
+
+<div class="col-md-4">
+
+<div class="col-md-12 vendordetail">
+
+<img src="/media/{{ vendors.photo }}" height="200" width="100%" />
+<h3>{{ vendors.name }}</h3>
+<p>{{ vendors.location }}</p>
+<hr>
+<p><span class="pull-left">{{ vendors.price }}</span><span class="pull-right">{{ vendors.description }}</span></p>
+</div>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+{% endblock %}

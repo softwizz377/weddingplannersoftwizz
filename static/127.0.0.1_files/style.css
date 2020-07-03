@@ -1,0 +1,39 @@
+/*#header{background-color:yellow;text-decoration:underline; font-size:40px; font-family:Modern No.20;
+color:red; font-weight:bold; text-align:center;}
+.subpart{color:brown;font-weight:bold; margin-bottom:20px;background-color:yellow;padding-left:25px;}
+#footer{background-color:yellow; text-align:center;}
+
+.bannerimg img{border:10px solid black; border-radius:50px;}
+#CAKE{color:red; font-weight:bold;}
+#GULABJAMUN{color:green; font-weight:bold;}
+#PESTRY{color:blue; font-weight:bold;}
+#RASGULLA{color:red; font-weight:bold;}
+*/
+
+
+/*#header{background-color:rgba(43,42,38,1); color:#fff; padding:20px;}
+#nav a{color:white;}
+#nav a:hover{color:#ccc;}
+#intro{background-color:rgba(43,42,38,1);color:#fff;}
+#footer{background-color:rgba(45,42,45,1); padding:20px; color:#fff;}
+*/
+
+/*#header{ background-color:rgba(043,42,38,1); color:#fff;}
+#nav a {color:#FFFFFF;}
+#nav a:hover{color:#ff6600;}
+#image{background-color:rgba(42,42,38,1);color:#ccc; font-size:30px;}
+#footer{background-color:#ff6600; padding:20px: color:#ff6600;}
+#image{background-image:url('bg1.jpg'); padding:200px; background-size:100% 500px;}
+.threedivs .glyphicon{font-size:70px; color:#ff6600;}
+.threedivs{padding:100px;}
+#back{ background-color:#ff6600; color:#ccc;}
+#back.glyphicon{font-size:40px; color:#ffffff; background-color:#ccc; padding:40px; border-radius:100px;}
+#p{padding-top:50px;}
+#project{background-color:#ffffff; color:#208000;}
+#con{background-color:#1a75ff; color:#ff6600}
+.orange{color:orange }
+.green{color:green}
+*/
+
+#image{background-image:url('bg3.jpg'); padding:100px; background-size:100% 500px;}
+#form{background: rgba(255,255,255,0.7); padding:30px; }

@@ -1,0 +1,243 @@
+#header{background-color:black; color:white; }
+body{margin:0; padding:0; width:100% !important;}
+#one{margin:0 !important}
+#nav a{color:white; border:1px solid GOLD;margin-right:20px;margin-top:15px; border-radius:20px 30px 20px 30px; padding:10px 20px 10px 20px;}
+#nav a:hover{color:GOLD;}
+#font{background-color:black; color:GOLD; padding:5px;}
+#footer{background-color:rgba(45,42,45,1); color:#fff;}
+#image{background-image:url('bg1.jpg');  background-size:100% 500px;}
+.icon{background-color:#1a75ff; color:#ff6600}
+#port{background-color:HONEYDEW; font-family:Lucida Calligraphy; font-weight:bold; color:MAROON; }
+#port h3{color:RGB(205, 92, 92);}
+#port img{ box-shadow:1px 5px 10px black; border-radius:20px 30px 20px 30px;padding:40px; }
+#port  .col-md-3{ padding:20px;}
+.padding30{ padding:30px;}
+.gallerypics{ border:3px solid DARKRED; padding:0px; margin-bottom:30px; margin-top:20px; 
+border-radius:20px; box-shadow:1px 1px 10px #000; overflow:hidden;}
+.gallerypics img{ border-radius:20px; transition: transform 2s;}
+.gallerypics img:hover{ transform:scale(1.5);}
+
+#text{background-color:HONEYDEW; padding:40px 50px 40pxpx 90px;}
+#text h1{color:DARKRED;text-align:center; padding:0px 100px 0px 100px;}
+#text p{color:INDIANRED;font-weight:bold; padding: 10px 30px 10px 30px;font-size:20px;}
+#text img{border:4px dotted DARKRED;}
+#core{text-align:center; color:GREEN;background-color:HONEYDEW; padding:30px; padding:20px 80px 20px 80px;}
+#core h4{font-family:Lucida Calligraphy; font-weight:bold; text-align:center; color:OLIVEDRAB;
+box-shadow:1px 5px 10px black; border-radius:20px 100px 10px 70px; padding:10px 20px 10px 20px;}
+#core p{color:SEAGREEN;font-size:20px; padding-top:20px; padding-bottom:20px;}
+#core h1{font-family:Impact; font-weight:bold; font-size:75px; padding:30px 60px 30px 60px;}
+#ser p{color:DEEPPINK;font-size:30px; padding-top:20px; padding-bottom:20px;}
+#ser h1{text-align:center; ; font-weight:bold; font-size:100px; padding:30px; padding:20px 80px 20px 80px;}
+#srv h1{ text-align:center; color:GREEN; background-color:HONEYDEW; font-size:75px; font-family:Impact;
+ font-weight:bold; font-size:40px; padding:30px 60px 30px 60px;}
+#srv h3{font-family:Lucida Calligraphy; font-weight:bold; text-align:center; color:OLIVEDRAB;
+box-shadow:1px 5px 10px black; border-radius:20px 100px 10px 70px; padding:10px 20px 10px 20px;}
+#srv h4{color:SEAGREEN;font-size:16px;  padding-top:5px; padding-bottom:5px;
+line-height:25px;}
+#Services{background-color:HONEYDEW; padding:40px 10px 40px 10px;}
+#Services img{ box-shadow:1px 5px 10px black; border-radius:20px 100px 10px 70px;}
+#Services .col-md-4{ padding:30px;}
+#services h1{font-family:latin; font-weight:bold; background-size:100% 500px; text-align:center;
+color:DEEPPINK;}
+#services h4{font-family:Comic Sans MS;font-weight:bold; color:grey;font-size:20px;padding:10px 20px 10px 20px;}
+#services h3{font-family:cooper; font-weight:bold; color:DEEPPINK;font-size:30px;padding:10px 20px 10px 20px;}
+#banner{ background:url('wd2.jpg'); padding:180px 20px 180px 20px;
+ text-align:center; background-size: 100% 700px; font-family:Pristina; font-weight:bold;}
+#banner h1{ font-size:59px; color:ORANGERED;}
+#banner h3{ font-size:40px; color:TOMATO;}
+#backimage{background-image:url('bckgrd.jpg');background-size:cover;
+padding:20px 0px 20px 0px;top:0;}
+
+.h1:hover{color:black !important;}
+#backimage img{color:white;}
+#backimage h1{color:white;}
+#latest .col-md-12{text-align:center; color:white;background-color:RED;font-family:Algerian; font-weight:bold;}
+#latest .col-md-4{background-color:HONEYDEW; }
+#latest .col-md-4 img{border: 1px solid #ddd; border-radius:4px;padding: 5px;}
+#latest .col-md-4{ padding:20px;}
+
+#client{text-align:center; color:OLIVE; background-color:HONEYDEW; font-family:Comic Sans MS; font-weight:bold;padding:20px;}
+#client h1{background-color:PALEGREEN; color:DARKGREEN; font-size:50px; font-weight:bold; text-align:center;}
+#client h3{text-align:center; font-size:30px; font-weight:bold;color:FORESTGREEN;}
+/*footer begin */
+#foots{background:black;}
+.footer{background:black;color:#fff;font-size:20px;padding:10px;margin-right:0;}
+.address{color:white;font-size:16px;outline:none;list-style: none;}
+#menu{margin-right:20px;font-size:25px;border-radius:10px;}
+.info a{color:white;font-size:16px;padding:10px 0px 10px 0px;}
+.info a:hover{color:rgb(53,151,128);}
+.hammer5{text-align:center;font-size: 26px; font-family: 'Times New Roman', Times, serif;
+ font-weight: bold; font-style: oblique; color:GOLD; border:1px solid GOLD; padding:4px; border-radius:10px 20px;}
+.fa-facebook {background: #3B5998;color: white;}
+.fa-google {background: #dd4b39; color: white;}
+.fa-youtube {background: #bb0000; color: white;}
+.fa-instagram {background: #125688;color: white;}
+.fa-pinterest {background: #cb2027;color: white;}
+/* footer end */
+/*about begin*/
+#abot{ background:url('wd3.jpg'); padding:180px 20px 180px 20px;
+ text-align:center; background-size: 100% 700px; font-family:Pristina; font-weight:bold;}
+#abot h1{ font-size:59px; color:ORANGERED;}
+#abot h3{ font-size:40px; color:TOMATO;}
+#backimage{background-image:url('bckgrd.jpg');background-size:cover;
+padding:20px 0px 20px 0px;top:0;}
+#abt h1{text-align:center; color:GREEN; font-weight:bold; font-size:80px; background-color:HONEYDEW; 
+padding:30px; padding:20px 80px 20px 80px;}
+#abt p{color:SEAGREEN;font-size:20px; padding-top:20px; padding-bottom:20px; font-size:30px;}
+#fact h1{ text-align:center; color:GREEN; background-color:HONEYDEW; font-size:75px; font-family:Impact;
+ font-weight:bold; font-size:40px; padding:30px 60px 30px 60px;}
+#fact  h3{color:SEAGREEN;font-size:20px;  padding-top:10px; padding-bottom:5px;
+text-transform: capitalize;}
+
+#our{background-color:HONEYDEW; padding:40px 10px 40px 10px;}
+#our img{ box-shadow:1px 5px 10px black; border-radius:20px 30pxpx 20px 30px;}
+#our .col-md-4{ padding:30px;}
+#our h1{font-family:latin; font-weight:bold; background-size:100% 500px; text-align:center;
+color:DEEPPINK;}
+#our h4{font-family:Comic Sans MS;font-weight:bold; color:grey;font-size:20px;padding:10px 20px 10px 20px;}
+#our h3{font-family:cooper; font-weight:bold; color:DEEPPINK;font-size:30px;padding:10px 20px 10px 20px;}
+
+#gallery .col-md-12{text-align:center; color:white;font-family:Algerian; font-weight:bold;}
+#gallery .col-md-4{background-color:HONEYDEW; }
+#gallery .col-md-4 img{border: 1px solid #ddd; border-radius:4px;padding: 5px;}
+#gallery .col-md-4{ padding:20px;}
+.text-center{background-color:white;color:black;font-weight:bold; font-size:30px;}
+.designheading{ color:dd4b39; font-family:Pristina; font-size:40px; background:#000; padding:5px;}
+.vendorcategory { background:#000; text-align:center; padding:0px 0px 20px 0px; 
+margin-bottom:30px; margin-top:20px; box-shadow:1px 3px 10px #000;}
+.vendorcategory h3{ color:DEEPPINK; font-family:Calligraphy;}
+.vendorcategory:hover h3{ color:#fff; }
+.vendordetail{ padding:20px; box-shadow:2px 4px 10px #000; margin-bottom:30px;}
+.vendordetail h3{ color:DEEPPINK; font-family:Calligraphy; text-align:center;}
+.vendordetail span{ color:grey; font-style:italic;}
+#vdetail{ background:url('blg1.jpg'); padding:100px; color:DEEPPINK; font-family:Pristina; text-align:center;
+background-size:100% 400px; }
+#vdetail h1{ font-size:44px;}
+#blogs .col-md-3{ margin-bottom:50px; margin-top:30px; padding:20px;}
+#blogs .col-md-3 h1{ color:DARKRED; font-family:MenuText;}
+#blog{ background:url('blg1.jpg'); padding:180px 20px 180px 20px;
+ text-align:center; background-size:100% 600px; font-family:Pristina; font-weight:bold;}
+#blog h1{ font-size:59px; color:DEEPPINK;}
+
+#catr{ background:url('cater.jpg'); padding:180px 20px 180px 20px;
+ text-align:center; background-size:100% 600px; font-family:Pristina; font-weight:bold;}
+#catr h1{ font-size:59px; color:DEEPPINK;}
+
+
+#pack{ background:url('package.jpg'); padding:180px 20px 180px 20px;
+ text-align:center; background-size:100% 600px; font-family:Pristina; font-weight:bold;}
+#pack h1{ font-size:59px; color:DEEPPINK;}
+
+#aboutus1{ background:url('contact.jpg'); padding:130px;
+ text-align:center; background-size:100% 600px; font-family:Pristina; font-weight:bold;}
+#aboutus1 h1{ font-size:59px; color:DEEPPINK;}
+
+#ser{ background:url('service.jpg'); padding:180px 20px 180px 20px;
+ text-align:center; background-size:100% 770px; font-family:Pristina; font-weight:bold;}
+#ser h1{ font-size:59px; color:DEEPPINK;}
+
+#see{ background:url('Feedback.jpg'); padding:180px 20px 180px 20px;
+ text-align:center; background-size:100% 600px; font-family:Pristina; font-weight:bold;}
+#see h1{ font-size:59px; color:DEEPPINK;}
+
+#gallery{ background:url('gallery.jpg'); padding:180px 20px 180px 20px;
+ text-align:center; background-size:100% 600px; font-family:Pristina; font-weight:bold;}
+#gallery h1{ font-size:59px; color:DEEPPINK;}
+
+#abt{ background:url('about.jpg'); padding:180px 20px 180px 20px;
+ text-align:center; background-size:100% 750px; font-family:Pristina; font-weight:bold;}
+#abt h1{ font-size:59px; color:DEEPPINK;}
+ 
+ 
+#book{ background:url('booking.jpg'); padding:180px 20px 180px 20px;
+ text-align:center; background-size:100% 600px; font-family:Pristina; font-weight:bold;}
+#book h1{ font-size:59px; color:DEEPPINK;}
+
+.item img{height:500px !important; width:100%}
+/*contact/
+{
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea, email {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+/*.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+baad ch jithe lgaiya container nu id ya class de dena ok
+okk*/
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.map-container-3{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-3 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+/*contact*/
+
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+
+

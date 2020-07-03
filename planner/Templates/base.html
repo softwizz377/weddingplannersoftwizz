@@ -1,0 +1,116 @@
+{% load staticfiles %}
+<html>
+<head>
+<link href="{% static 'bootstrap/css/bootstrap.css'%}" type="text/css" rel="stylesheet"/>
+<link href="{% static 'style1.css' %}" type="text/css" rel="stylesheet" />
+<link href="{% static 'bxslider-4-4.2.12/bxslider-4-4.2.12/dist/jquery.bxSlider.min.css'%}" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="{% static 'bootstrap/Font-Awesome-master/Font-Awesome-master/css/fontawesome.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'bootstrap/Font-Awesome-master/Font-Awesome-master/css/all.css' %}">
+<script src="{% static 'bootstrap/jquery.js' %}"></script>
+<script src="{% static 'bootstrap/bootstrap.js' %}"></script>
+<script src="{% static 'bxslider-4-4.2.12/bxslider-4-4.2.12/dist/jquery.bxslider.min.js' %}"></script>
+
+
+<!--.item img{height:500px !important; width:100%}
+scarousel-caption h3{background:rgba(0,0,0,0.5);}
+.carousel-control.left{background-image:none !important;} !-->
+
+</head>
+<body>
+
+<div class="container-fluid">
+
+ <div class="row" id="header">
+ <div class="col-md-2">
+ <img src="{% static 'logo1.jpg' %}" height="190" width="100%" 
+ style="box-shadow:2px 2px 10px #000; border-radius:30px;" />
+ </div>
+ <div class="col-md-10">
+ <h1 class="text-center" id="font">Welcome to Royal Wedding Planner</h1>
+  <nav class="navbar-inverse" id="nav">
+  <ul class="nav navbar-nav">
+  <li><a href="/home/">Home</a></li>
+   <li><a href="/About/">About</a></li>
+  <li><a href="/Services/">Services</a></li>
+  <li><a href="/Blog/">Blog</a></li>
+  <li><a href="/Designs/">Our Designs</a></li>
+   <li><a href="/Vendors/">Vendors</a></li>
+  <li><a href="/Gallery/">Gallery</a></li>
+  <li><a href="/ContactUs/">Contact Us</a></li>
+  <li><a href="/Booking/">Booking</a></li>
+  
+  </ul>
+  </nav>
+ </div>
+ </div>
+ 
+
+ {% block content %}
+ {% endblock %}
+ <br>
+ <div class="row" id="foots">
+ <div class="footer">
+ <div class="container">
+ <div class="col-md-4">
+ <h4 class="hammer5">Contact Us</h4>
+ 
+  <p>Royal Wedding Planner</p>
+    <p><i class="glyphicon glyphicon-map-marker"></i> Bathinda</p>
+    <p><i class="glyphicon glyphicon-envelope"></i> royalwedding@gmail.com</p>
+    <p><i class="glyphicon glyphicon-earphone"></i>9876543210</p>
+ 
+</div>
+
+<div class="col-md-4">
+<h4 class="hammer5">Quick Links</h4>
+<div class="col-md-6">
+<ul class="info">
+
+  <li><a href="/Home/" id="four">Home</a></li>
+  <li><a href="/About/" id="four">About</a></li>
+  <li><a href="/Services/"  id="four">Services</a></li>
+  <li><a href="/Blog/"  id="four">Blog</a></li>
+  <li><a href="/Designs/"  id="four">Our Designs</a></li>
+  </ul>
+  </div>
+  <div class="col-md-6">
+  <ul class="info">
+  <li><a href="/Vendors/"  id="four">Vendors</a></li>
+  <li><a href="/Gallery/"  id="four">Gallery</a></li>
+  <li><a href="/Contact Us/"  id="four">Contact Us</a></li>
+  <li><a href="/Booking/"  id="four">Booking</a></li>
+  
+  </ul>
+  </div>
+  </div>
+<div class="col-md-4">
+<h4 class="hammer5">Opening hours:</h4>
+<ul class="info">
+<h4>Monday-Saturday
+<br><br>
+9am -6pm</h4>
+</div>
+
+ 
+</div>
+</div>
+</div>
+
+<div class="row text-center" id="footer">
+ <div class="col-md-12">
+ <h4 id="four">Copyright &copy; 2020 All Rights Reserved. Royal Wedding Planner</h4>
+ </div>
+ </div>
+ </div>
+</body>
+<script>
+$(document).ready (function(){
+$('.slider').bxSlider({
+auto: true,
+autocontrols: true
+});
+});
+</script>
+</html>
+
+

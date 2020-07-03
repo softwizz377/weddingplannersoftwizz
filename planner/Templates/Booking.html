@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+
+
+<div class="row" id="book">
+<div class="col-md-12">
+<h1><b> BOOKING</h1>
+</div>
+</div>
+<div class="container">
+            <div class="row padding30">
+			<form action="/insertBooking" method="post">
+{% csrf_token %}
+                <div class="col-md-6">
+                    <div class="well-block">
+                        <div class="well-title">
+                            <h2 id="four">Questions? At Booking</h2>
+							<br>
+                        </div>
+                        <form>
+                            <!-- Form start -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="name" id="font">Name</label>
+                                        <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="email" id="font">Email</label>
+                                        <input id="email" name="email" type="text" placeholder="E-Mail" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="date" id="font">Preferred Date</label>
+                                        <input id="date" name="date" type="text" placeholder="Preferred Date" class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="time" id="font">Preferred Time</label>
+                                        <select id="time" name="time" class="form-control">
+                                            <option value="8:00 to 9:00">8:00 to 9:00</option>
+                                            <option value="9:00 to 10:00">9:00 to 10:00</option>
+                                            <option value="10:00 to 1:00">10:00 to 1:00</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="control-label" for="Bookingfor" id="font">Booking For</label>
+                                        <select id="Bookingfor" name="Bookingfor" class="form-control"  >
+                                            <option  id="font">Decoration</option>
+											<option  id="font">Catering</option>
+                                            <option  id="font">Packages</option>
+                                            <option  id="font">Music</option>
+                                            <option  id="font">Wedding Cars</option>
+											<option  id="font">Wedding venue</option>
+											<option  id="font">Wedding Photography </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Button -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <button id="button" name="singlebutton" class="btn btn-warning" id="butt">Booking</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- form end -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="well-block">
+                        <div class="well-title">
+                            <h2 class="head" id="four">Why Booking with Us</h2>
+                        </div>
+                        <div class="feature-block">
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title" id="font">
+								<i class="glyphicon glyphicon-time"></i> 24/7 Hours Available</h4>
+                                <div class="feature-content">
+                                </div>
+                            </div>
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title" id="font">
+								<i class="glyphicon glyphicon-globe"></i> Experienced Planners Available</h4>
+                                <div class="feature-content">
+                                    
+                                </div>
+                            </div>
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title" id="font">
+								<i class="glyphicon glyphicon-credit-card"></i> 
+								Low Price & Fees</h4>
+                                <div class="feature-content">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+{% endblock %}

@@ -1,0 +1,359 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+{% block content %}
+
+<div class="row">
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   <ol class="carousel-indicators">
+   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+   <li data-target="#myCarousel" data-slide-to="1"></li>
+   <li data-target="#myCarousel" data-slide-to="2"></li>
+   </ol>
+ <div class="carousel-inner">
+    <div class="item active">
+    <img src="{% static 'wl7.jpg' %}" alt="Chania">
+    <div class="carousel-caption">
+    <h3>ROYAL WEDDING PLANNER</h3>
+    </div>
+   </div>
+ <div class="item">
+    <img src="{% static '16.jpg' %}" alt="Chicago">
+    <div class="carousel-caption">
+    <h3>Create & plan your perfect
+     wedding with Amour</h3>
+    </div>
+   </div>
+  <div class="item">
+    <img src="{% static '11.jpg' %}" alt="New York">
+    <div class="carousel-caption">
+    <h3>Let’s Create the Best Wedding for You</h3>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+ 
+  <br>
+  <br>
+ 
+<div class="row text-center" id="port">
+<div class="col-md-12">
+<h1>OUR PORTFOLIO</h1>
+<h3>Below are some of the best moments captured during the latest weddings we have organized. Feel free to browse our website for more photos!</h3>
+</div>
+<div class="col-md-12" >
+<div class="col-md-3"><div id="zoom">
+<img src="{% static 'ctrn.jpg' %}" height="200" width="100%">
+</div>
+</div>
+<div class="col-md-3" id="zm">
+<img src="{% static 'dcr2.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-3">
+<img src="{% static 'dnc1.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-3">
+<img src="{% static 'fd1.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-3">
+<img src="{% static 'wd0.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-3">
+<img src="{% static 'img.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-3">
+<img src="{% static 'img1.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-3">
+<img src="{% static 'img2.jpg' %}" height="200" width="100%">
+</div>
+</div>
+</div>
+
+
+  
+  
+ <div class="row text-center" id="text">
+<div class="col-md-4">
+<div class="col-md-12 threedivs">
+<span class="glyhicon glyhicon-alert"></span>
+<br>
+<br>
+<img src="{% static 'prsn.png' %}" height="80" width="80" class="img-circle"/>
+<h1><b>Qualified Team</b></h1>
+<p>Amour employs the best wedding experts in Los Angeles to help you make your wedding unforgettable.</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="col-md-12 threedivs">
+<span class="glyhicon-heart icon"></span>
+<br>
+<br>
+<img src="{% static 'pdn.png' %}" height="80" width="80" class="img-circle"/>
+<h1><b>Professional Approach</b></h1>
+<p>We will thoroughly plan every element of your wedding ceremony so that you could enjoy your most important day.</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="col-md-12 threedivs">
+<span class="glyhicon-heart icon"></span>
+<br>
+<br>
+<img src="{% static 'cream.png' %}" height="80" width="80" class="img-circle"/>
+<h1><b>Acceptable Prices</b></h1>
+<p>Our clients value our affordable pricing policy and great service that allow us to plan the best weddings.</p>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+<div class="row" id="banner">
+<div class="col-md-12" style="background:rgba(255,255,255,0.5); padding:30px;">
+<h1>Let's Create the Best Wedding for You</h1>
+<br>
+<h3>Our team of vendors and wedding planners is always glad to create an unforgettable wedding for you and your guests.</h3>
+</div>
+</div>
+
+
+
+<div class="row text-center" id="Services">
+<div class="col-md-12">
+<h1>What We Offer</h1>
+<h4>Our team provides a variety of wedding-related services, from planning the ceremony to designing and organizing its every element.</h4>
+</div>
+
+<div class="col-md-12">
+<div class="col-md-4">
+<img src="{% static 'dcr.jpg' %}" height="200" width="100%">
+<h3>Decoration</h3>
+<h4>Unique Decoration Services</h4>
+</div>
+<div class="col-md-4">
+<img src="{% static 'evpln.jpg' %}" height="200" width="100%">
+<h3>Event planning</h3>
+<h4>Let us plan your Wedding</h4>
+</div>
+<div class="col-md-4">
+<img src="{% static 'fd2.jpg' %}" height="200" width="100%">
+<h3>Floral Design</h3>
+<h4>Best Bouquets for your event</h4>
+</div>
+</div>
+
+<div class="col-md-12">
+<div class="col-md-4">
+<img src="{% static 'stnloc.jpg' %}" height="200" width="100%">
+<h3>Stunning Location</h3>
+<h4>Choose the best location for your wedding</h4>
+</div>
+<div class="col-md-4">
+<img src="{% static 'cak1.jpg' %}" height="200" width="100%">
+<h3>Cake Design</h3>
+<h4>Creative cake ideas for your wedding event</h4>
+</div>
+<div class="col-md-4">
+<img src="{% static 'dnc.jpg' %}" height="200" width="100%">
+<h3>Dance Lesson</h3>
+<h4>Impress every guest with your dance</h4>
+</div>
+</div>
+
+<div class="col-md-12">
+<div class="col-md-4">
+<img src="{% static 'car.jpg' %}" height="200" width="100%">
+<h3>Wedding Cars</h3>
+<h4>Choose the cars </h4>
+</div>
+<div class="col-md-4">
+<img src="{% static 'wd1.jpg' %}" height="200" width="100%">
+<h3>Wedding Venues</h3>
+<h4>check the venue of your wedding planning</h4>
+</div>
+<div class="col-md-4">
+<img src="{% static 'cmr1.jpg' %}" height="200" width="100%">
+<h3>Photography</h3>
+<h4>Collections wonderful moments</h4>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+ <div class="row text-center" id="backimage">
+ <div class="col-md-12" style="background:rgba(0,0,0,0.2);">
+<div class="col-md-4">
+<div class="col-md-12 threedivs">
+<br>
+<br>
+<img src="{% static 'flower.jpg' %}" height="80" width="80" class="img-circle"/>
+<h1 class="h1"><b>FLOWER</b></h1>
+<p class="h1">125 items</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="col-md-12 threedivs">
+<br>
+<br>
+<img src="{% static 'ceremony.png' %}" height="80" width="80" class="img-circle"/>
+<h1 class="h1"><b>CEREMONY</b></h1>
+<p class="h1">60 ideas</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="col-md-12 threedivs">
+<br>
+<br>
+<img src="{% static 'cakei.png' %}" height="80" width="80" class="img-circle"/>
+<h1 class="h1"><b>WEDDING CAKES</b></h1>
+<p class="h1">50 items</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="col-md-12 threedivs">
+<br>
+<br>
+<img src="{% static 'cari.png' %}" height="80" width="80" class="img-circle"/>
+<h1 class="h1"><b>WEDDING CARS</b></h1>
+<p class="h1">20 cars</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="col-md-12 threedivs">
+<br>
+<br>
+<img src="{% static 'venue.png' %}" height="80" width="80" class="img-circle"/>
+<h1 class="h1"><b>WEDDING VENUES</b></h1>
+<p class="h1">35 places</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="col-md-12 threedivs">
+<br>
+<br>
+<img src="{% static 'camera.png' %}" height="80" width="80" class="img-circle"/>
+<h1 class="h1"><b>PHOTOGRAPHY</b></h1>
+<p class="h1">25 photographers</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row" id="core">
+<div class="col-md-12">
+<h1>Core Services</h1>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="col-md-4">
+<h4><span class="glyphicon glyphicon-ok"></span>Complete Wedding Planning</h4>
+<p>Our Full Service Wedding Planning includes every aspect of planning your wedding. No detail is left undone, as our team will be there for you in every step of the way
+</p>
+</div>
+<div class="col-md-4">
+<h4><span class="glyphicon glyphicon-send"></span>Venue Booking</h4>
+<p>MWP plans over 40 weddings in year. This avail us to get discounted rates from venues which are not available to you. Get benefits of our hotel tie-up. Post your requirements now.
+</p>
+</div>
+<div class="col-md-4">
+<h4><i class="fa fa-magic"></i>Wedding Decor</h4>
+<p>From the moment your guests walk in, they should experience your vision and personality through the stunning customized decor and unique touches that the  our wedding decorators will provide.
+</p>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="col-md-4">
+<h4><span class="glyphicon glyphicon-star-empty"></span>Partial Wedding Planning</h4>
+<p>Our partial planning services is perfect for those couples who have already started their wedding planning process and need professional guidance regarding some elements of their wedding like decor designing or  planning a theme.</p>
+</div>
+<div class="col-md-4">
+<h4><span class="glyphicon glyphicon-user"></span>Vendor Sourcing</h4>
+<p>Special prices and exclusive discounts with our partners (Decorators, Entertainment, Bridal Makeup, Mehendi etc) and priority access to events sponsored by MWP.</p>
+</div>
+<div class="col-md-4">
+<h4><i class="fa fa-adjust"></i>Wedding Packages</h4>
+<p>Wedding packages are pre-arranged combinations of the best wedding deals. Wedding Packages are extremely popular when planning a destination wedding.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="row text-center" id="latest">
+<div class="col-md-12">
+<h1>Check Some Of Latest Wedding Work</h1>
+<h3>Each wedding we undertake is a work of art for us. Creativity is our biggest strength and we make sure your wedding stands out! We pride ourselves in creating events that are truly spectacular!</h3>
+</div>
+<div class="col-md-12">
+<div class="col-md-4">
+<img src="{% static 'stnloc.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-4">
+<img src="{% static 'dcr2.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-4">
+<img src="{% static 'dnc1.jpg' %}" height="200"	 width="100%">
+</div>
+<div class="col-md-4">
+<img src="{% static 'fd1.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-4">
+<img src="{% static 'wd0.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-4">
+<img src="{% static 'img.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-4">
+<img src="{% static 'img1.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-4">
+<img src="{% static 'img2.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-4">
+<img src="{% static '13.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-4">
+<img src="{% static '14.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-4">
+<img src="{% static '15.jpg' %}" height="200" width="100%">
+</div>
+<div class="col-md-4">
+<img src="{% static '17.jpg' %}" height="200" width="100%">
+</div>
+</div>
+</div>
+<br>
+<br>
+<div class="row text-center" id="client">
+<div class="col-md-12">
+<h1>What Our Clients Say</h1>
+<h3>The overall experience was excellent .We were told by my friend that wedding planner is the number one priority 
+in the entire wedding planning. it's true. you did everything just like we wanted Thannk You!</h3>
+</div>
+</div>
+
+
+
+  
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+<div class="row" id="pack">
+<div class="col-md-12">
+<h1><b> The Best Way of Wedding Planning</h1>
+<h2>Search for trusted Wedding Vendors</h2>
+</div>
+</div>
+
+
+<div class="row padding30">
+<h1 class="text-center">Find trusted wedding services in all Indian cities</h1>
+
+<div class="col-md-12">
+<h3>Book a vendor in 3 simple steps</h3>
+</div>
+ <div class="col-md-12 text-center" id="text">
+<div class="col-md-4">
+<div class="col-md-12 threedivs">
+<span class="glyhicon glyhicon-alert"></span>
+<br>
+<br>
+<img src="{% static 'prsn.png' %}" height="80" width="80" class="img-circle"/>
+<p><b>Send your requirements to multiple vendors</b></p>
+
+</div>
+</div>
+<div class="col-md-4">
+<div class="col-md-12 threedivs">
+<span class="glyhicon-heart icon"></span>
+<br>
+<br>
+<img src="{% static 'pdn.png' %}" height="80" width="80" class="img-circle"/>
+<p><b>Get Quotes on your phone & compare</b></p>
+
+</div>
+</div>
+<div class="col-md-4">
+<div class="col-md-12 threedivs">
+<span class="glyhicon-heart icon"></span>
+<br>
+<br>
+<img src="{% static 'cream.png' %}" height="80" width="80" class="img-circle"/>
+<p><b>Book the best vendor!</b></p>
+
+</div>
+</div>
+</div>
+
+{% for vendor in object_list %}
+
+<div class="col-md-4">
+<a href="/vendordetail/{{ vendor.id }}">
+<div class="col-md-12 vendorcategory">
+<h3>{{ vendor.title }}</h3>
+<img src="/media/{{ vendor.photo }}" height="200" width="100%" />
+
+</div>
+</a>
+</div>
+
+{% endfor %}
+
+</div>
+
+{% endblock %}
